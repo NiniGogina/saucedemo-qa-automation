@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-qa-automation-1",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript SauceDemo login tests with POM",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiniGogina/saucedemo-qa-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NiniGogina/saucedemo-qa-automation/issues"
+  },
+  "homepage": "https://github.com/NiniGogina/saucedemo-qa-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
