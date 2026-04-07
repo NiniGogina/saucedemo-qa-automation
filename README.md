@@ -1,8 +1,15 @@
 # SauceDemo QA Automation (Playwright + TypeScript)
 
-Playwright TypeScript project using the Page Object Model for the SauceDemo login page only.
+SauceDemo QA Automation project built with Playwright and TypeScript, focused on validating login scenarios using the Page Object Model approach.
 
-## Project structure
+## Technologies Used
+
+- Playwright
+- TypeScript
+- Page Object Model (POM)
+- HTML Reporter
+
+## Project Structure
 
 - `pages/LoginPage.ts` - page object for the login page
 - `data/loginUsers.ts` - all 6 SauceDemo users + shared password constant
@@ -10,26 +17,33 @@ Playwright TypeScript project using the Page Object Model for the SauceDemo logi
 - `tests/login.spec.ts` - positive, negative and edge login scenarios
 - `playwright.config.ts` - Playwright config and browser project setup
 
-## Install
+## Installation
 
 ```bash
 npm install
 npx playwright install chromium
 ```
 
-## Run tests
+## How to Run Tests
 
 ```bash
 npm test
 ```
 
-Other options:
+Optional commands:
 
 ```bash
 npm run test:headed
 npm run test:ui
+```
+
+## How to View the Report
+
+```bash
 npm run report
 ```
+
+Then open the generated HTML report in your browser.
 
 ## Covered users
 
